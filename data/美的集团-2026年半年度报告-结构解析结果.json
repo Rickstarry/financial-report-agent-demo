@@ -1,5 +1,5 @@
 {
-  "source_txt": "C:\\Users\\35899\\Desktop\\章唐茜-竞赛开发环境\\data\\美的集团-2026年半年度报告.txt",
+    "source_txt": "data/美的集团-2026年半年度报告.txt",
   "excerpt_start": 98383,
   "excerpt_chars": 6000,
   "model": "deepseek-chat",
