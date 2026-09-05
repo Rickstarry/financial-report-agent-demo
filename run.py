@@ -1,4 +1,4 @@
-"""金融研报智能体 - 本地可运行入口(决赛交付形态)。
+"""金融研报智能体 - 本地可运行入口(命令行交付)。
 
 用法:
     python run.py parse --pdf data\\xxx.pdf [--out data\\xxx.txt]
