@@ -84,7 +84,7 @@ def render_result(result: dict):
                 st.write("**主要项目:**" + " · ".join(str(x) for x in items[:25]))
             issues = stmt.get("quality_issues", [])
             if issues:
-                st.warning("疑似错位/乱码/缺列(赛题 E 场景):")
+                st.warning("疑似错位/乱码/缺列(文本纠错场景):")
                 for issue in issues:
                     st.markdown(f"- {issue}")
 
@@ -128,4 +128,4 @@ if st.button("🚀 一键解析并分析", type="primary", disabled=(mode == "�
         log.error("Web 任务失败:%s", e, exc_info=True)
 
 st.divider()
-st.caption("竞赛定位:本地可运行原型 · 数据处理 src/parser.py · 模型调用 src/analyzer.py · 提示指令 src/prompts/ · 日志 logs/")
+st.caption("本地可运行原型 · 数据处理 src/parser.py · 模型调用 src/analyzer.py · 提示指令 src/prompts/ · 日志 logs/")
